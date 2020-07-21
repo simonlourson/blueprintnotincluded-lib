@@ -1,0 +1,74 @@
+{
+  "program": {
+    "fileInfos": {
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts": {
+        "version": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "signature": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "affectsGlobalScope": false
+      },
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "./src/vector2.ts": {
+        "version": "ba6d9570c10008762bd6786a7ed1e04653b9bbe188f7778481228d66539c7851",
+        "signature": "f311161216119a8e4abd45546e1a10d68ddae4cea9b8a593b2bdc6ffbbab8b9f",
+        "affectsGlobalScope": false
+      },
+      "./index.ts": {
+        "version": "0bc93092be9ae43b1900a2a3da746cc7b6df81b13ed2475b08a6547265e465a9",
+        "signature": "7e5f7892b08579017787c46531efa01c966d86c28c5e055e0312b99a859f01ca",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 1,
+      "module": 1,
+      "declaration": true,
+      "declarationMap": true,
+      "rootDir": "./",
+      "composite": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./index.ts": [
+        "./src/vector2.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./index.ts": [
+        "./src/vector2.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.d.ts",
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.dom.d.ts",
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.es5.d.ts",
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "c:/users/louis/appdata/roaming/npm/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "./index.ts",
+      "./src/vector2.ts"
+    ]
+  },
+  "version": "3.9.7"
+}
