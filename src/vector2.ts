@@ -46,7 +46,7 @@ export class Vector2
       return this.x * this.x + this.y * this.y;
     }
 
-    static clone(original: Vector2): Vector2
+    static clone(original: Vector2 | undefined): Vector2
     {
       if (original == null) return new Vector2();
 
