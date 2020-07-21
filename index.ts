@@ -31,3 +31,6 @@ export * from './src/coms/blueprint-list-response'
 
 export * from './src/drawing/sprite-modifier'
 export * from './src/drawing/sprite-modifier-group'
+export * from './src/drawing/sprite-info'
+export * from './src/drawing/image-source'
+export * from './src/drawing/draw-helpers'
