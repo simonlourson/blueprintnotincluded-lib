@@ -35,23 +35,23 @@ export class ImageSource
       if (imageSource == null) return undefined;
 
       if (imageSource.baseTexture == null) {
-        imageSource.baseTexture = PixiPolyfill.pixiPolyfill.getNewBaseTexture(imageSource.imageUrl);
+        if (!PixiPolyfill.backend) {
+          imageSource.baseTexture = PixiPolyfill.pixiPolyfill.getNewBaseTexture(imageSource.imageUrl);
+        }
       }
      
       return imageSource.baseTexture;
     }
 
-    public static getBaseTextureElement(imageId: string, imgElement: any): PIXI.BaseTexture | undefined
+    public static setBaseTexture(imageId: string, baseTexture: PIXI.BaseTexture)
     {
       let imageSource: ImageSource | undefined = ImageSource.imageSourcesMapPixi.get(imageId);
 
-      if (imageSource == null) return undefined;
+      if (imageSource == null) return;
 
       if (imageSource.baseTexture == null) {
-        imageSource.baseTexture = PixiPolyfill.pixiPolyfill.getNewBaseTextureElement(imgElement);
+        imageSource.baseTexture = baseTexture;
       }
-     
-      return imageSource.baseTexture;
     }
 
     public static getUrl(imageId: string) {

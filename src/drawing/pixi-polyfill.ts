@@ -2,6 +2,7 @@ var PIXI = require('../pixi-polyfill/')
 
 export class PixiPolyfill {
 
+    public static backend: boolean = false;
     static pixiPolyfill: PixiPolyfill = new PixiPolyfill();
     pixiApp: PIXI.Application
 

@@ -588,6 +588,9 @@ export class BlueprintItem
 
     this.container.x = positionCorrected.x;
     this.container.y = positionCorrected.y;
+
+    //this.container.x = Math.floor(this.container.x);
+    //this.container.y = Math.floor(this.container.y);
     
     this.container.scale.x = this.scale.x * sizeCorrected.x;
     this.container.scale.y = this.scale.y * sizeCorrected.y;
