@@ -4,12 +4,15 @@ import { OniItem } from "../oni-item";
 import { Vector2 } from "../vector2";
 import { Display } from "../enums/display";
 import { SpriteTag } from "../enums/sprite-tag";
+import { PixiPolyfill } from "./pixi-polyfill";
+
+declare var PIXI: any;
 
 export class DrawPart
 {
   spriteModifier!: SpriteModifier;
   spriteInfo!: SpriteInfo;
-  sprite: PIXI.Sprite;
+  sprite: PIXI.Sprite | undefined;
 
   private alpha_: number = 0;
   get alpha() { return this.alpha_; }
@@ -58,7 +61,10 @@ export class DrawPart
       if (texture != null) 
       {
         // TODO Invert pivoTY in export
-        this.sprite = PIXI.Sprite.from(texture);
+        this.sprite = PixiPolyfill.pixiPolyfill.getNewSprite(texture);
+
+        //if (!this.sprite.texture.baseTexture.valid) console.log('not valid')
+
         this.sprite.anchor.set(this.spriteInfo.pivot.x, 1-this.spriteInfo.pivot.y);
 
         this.sprite.alpha = this.alpha;

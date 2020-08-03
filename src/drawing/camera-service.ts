@@ -4,7 +4,9 @@ import { Overlay } from '../enums/overlay';
 import { Display } from '../enums/display';
 import { Visualization } from '../enums/visualization';
 import { OniItem } from '../oni-item';
-declare var PIXI: any;
+import { PixiPolyfill } from './pixi-polyfill';
+
+declare var PIXI: any;
 
 export class CameraService
 {
@@ -67,7 +69,7 @@ export class CameraService
 
   public triggerSortChildren: boolean;
 
-  public container: PIXI.Container = new PIXI.Container();
+  public container: PIXI.Container = PixiPolyfill.pixiPolyfill.getNewContainer();
   public addToContainer(child: any) {
     this.container.addChild(child);
     this.triggerSortChildren = true;

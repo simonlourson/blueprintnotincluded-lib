@@ -2,6 +2,7 @@ import { Vector2 } from "../vector2";
 import { BSpriteInfo } from "../b-export/b-sprite-info";
 import { DrawHelpers } from "./draw-helpers";
 import { ImageSource } from "./image-source";
+import { PixiPolyfill } from "./pixi-polyfill";
 
 declare var PIXI: any;
 
@@ -100,14 +101,14 @@ export class SpriteInfo
         let baseTex = ImageSource.getBaseTexture(this.imageId);
         if (baseTex == null) return null;
 
-        let rectangle = new PIXI.Rectangle(
+        let rectangle = PixiPolyfill.pixiPolyfill.getNewRectangle(
           this.uvMin.x,
           this.uvMin.y,
           this.uvSize.x,
           this.uvSize.y
         );
 
-        this.texture = new PIXI.Texture(baseTex, rectangle);
+        this.texture = PixiPolyfill.pixiPolyfill.getNewTexture(baseTex, rectangle);
       }
 
       return this.texture;

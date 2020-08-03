@@ -36,6 +36,7 @@ export * from './src/drawing/image-source'
 export * from './src/drawing/draw-helpers'
 export * from './src/drawing/draw-part'
 export * from './src/drawing/camera-service'
+export * from './src/drawing/pixi-polyfill'
 
 export * from './src/blueprint/blueprint'
 export * from './src/blueprint/blueprint-helpers'

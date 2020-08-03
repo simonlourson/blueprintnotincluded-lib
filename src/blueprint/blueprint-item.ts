@@ -16,8 +16,9 @@ import { Display } from "../enums/display";
 import { Visualization } from "../enums/visualization";
 import { ConnectionHelper } from "../utility-connection";
 import { SpriteInfo } from "../drawing/sprite-info";
+import { PixiPolyfill } from "../drawing/pixi-polyfill";
 
-declare var PIXI: any;
+declare var PIXI: any;
 
 export class BlueprintItem
 {
@@ -534,8 +535,8 @@ export class BlueprintItem
   }
 
   // Pixi stuff
-  utilitySprites: PIXI.Sprite[] = [];
-  container: PIXI.Container;
+  utilitySprites: any[] = [];
+  container: any = PixiPolyfill.pixiPolyfill.getNewContainer();
   containerCreated: boolean = false;
   reloadCamera: boolean = true;
   public drawPixi(camera: CameraService)
@@ -558,7 +559,7 @@ export class BlueprintItem
     // Create the container
     if (!this.containerCreated) 
     {
-      this.container = new PIXI.Container();
+      this.container = PixiPolyfill.pixiPolyfill.getNewContainer();
       //this.container.sortableChildren = true;
       camera.addToContainer(this.container)
       this.containerCreated = true;
@@ -642,7 +643,7 @@ export class BlueprintItem
             
             this.utilitySprites[connexionIndex].tint = tint;
             this.utilitySprites[connexionIndex].zIndex = 200;
-            camera.container.addChild(this.utilitySprites[connexionIndex]);
+            camera.addToContainer(this.utilitySprites[connexionIndex]);
           }
         }
       }

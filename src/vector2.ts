@@ -46,9 +46,9 @@ export class Vector2
       return this.x * this.x + this.y * this.y;
     }
 
-    static clone(original: Vector2 | undefined): Vector2
+    static clone(original: Vector2 | undefined): Vector2 | null
     {
-      if (original == null) return new Vector2();
+      if (original == null) return null;
 
       let returnValue = new Vector2();
       returnValue.copyFrom(original);
