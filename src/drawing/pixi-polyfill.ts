@@ -44,6 +44,10 @@ export class PixiPolyfill {
         return new PIXI.Texture(baseTex, rectangle);
     }
 
+    public getNewTextureWhole(baseTex: PIXI.BaseTexture) {
+        return new PIXI.Texture(baseTex);
+    }
+
     public getNewSprite(texture: PIXI.Texture) {
         return PIXI.Sprite.from(texture);
     }
@@ -56,7 +60,19 @@ export class PixiPolyfill {
         return new PIXI.BaseRenderTexture(options);
     }
 
+    public getNewBaseTextureFromCanvas(canvas: any) {
+        return new PIXI.BaseTexture(canvas);
+    }
+
     public getNewRenderTexture(baseRenderTexture: PIXI.BaseRenderTexture) {
         return new PIXI.RenderTexture(baseRenderTexture);
+    }
+
+    public getNewColorMatrixFilter() {
+        return new PIXI.filters.ColorMatrixFilter();
+    }
+
+    public getNewRessource() {
+        return new PIXI.Ressource();
     }
 }

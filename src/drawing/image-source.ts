@@ -28,6 +28,14 @@ export class ImageSource
       ImageSource.imageSourcesMapPixi.set(newImageSource.imageId, newImageSource);
     }
 
+    public static isTextureLoaded(imageId: string): boolean {
+      let imageSource: ImageSource | undefined = ImageSource.imageSourcesMapPixi.get(imageId);
+
+      if (imageSource == null) return false;
+
+      return imageSource.baseTexture != null;
+    }
+
     public static getBaseTexture(imageId: string): PIXI.BaseTexture | undefined
     {
       let imageSource: ImageSource | undefined = ImageSource.imageSourcesMapPixi.get(imageId);
@@ -56,9 +64,7 @@ export class ImageSource
 
     public static getUrl(imageId: string) {
       let imageSource: ImageSource | undefined = ImageSource.imageSourcesMapPixi.get(imageId);
-
-      if (imageSource == null) return undefined;
-
+      if (imageSource == null) throw new Error('ImageSource.getUrl : imageId not found : ' + imageId);
       return imageSource.imageUrl;
     }
 

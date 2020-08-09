@@ -82,7 +82,7 @@ export class SpriteModifier
       */
 
       if (returnValue != undefined) return returnValue;
-      else throw new Error('SpriteModifier.getSpriteModifer : Sprite Modifier not found');
+      else throw new Error('SpriteModifier.getSpriteModifer : Sprite Modifier not found : ' + spriteModifierId);
   }
 }
 

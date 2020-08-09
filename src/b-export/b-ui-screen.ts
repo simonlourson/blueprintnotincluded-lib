@@ -32,6 +32,11 @@ export class BUiScreen {
       returnValue.importFrom(original as BActiveRangeSideScreen);
       return returnValue;
     }
+    else if (original.id == 'LogicBitSelectorSideScreen') {
+      let returnValue = new BBitSelectorSideScreen(original.id);
+      returnValue.importFrom(original as BBitSelectorSideScreen);
+      return returnValue;
+    }
 
     throw new Error('BUiScreen.clone : Unkown UI screen');
   }
@@ -155,5 +160,26 @@ export class BActiveRangeSideScreen extends BUiScreen {
     this.deactivateTooltip = StringHelpers.stripHtml(original.deactivateTooltip);
     this.minValue = original.minValue;
     this.maxValue = original.maxValue;
+  }
+}
+
+export class BBitSelectorSideScreen extends BUiScreen {
+  
+  public title: string = '';
+  public description: string = '';
+
+  constructor(id: string) {
+    super(id);
+  }
+
+  getDefaultValue(index: number): any { 
+    if (index == 0) return 1;
+    else return null;
+  }
+
+  importFrom(original: BBitSelectorSideScreen) {
+    super.importFrom(original);
+    this.title = original.title;
+    this.description = original.description;
   }
 }
