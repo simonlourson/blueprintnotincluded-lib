@@ -10,5 +10,9 @@ export enum ConnectionType {
     LOGIC_OUTPUT,
     SOLID_INPUT,
     SOLID_OUTPUT,
-    NONE
+    NONE,
+    LOGIC_RESET_UPDATE,
+    LOGIC_CONTROL_INPUT,
+    LOGIC_RIBBON_INPUT,
+    LOGIC_RIBBON_OUTPUT
 }

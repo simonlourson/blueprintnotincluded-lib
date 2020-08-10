@@ -55,6 +55,15 @@ export class Vector2
       return returnValue;
     }
 
+    static cloneNullToZero(original: Vector2 | undefined): Vector2
+    {
+      if (original == null || original == undefined) return Vector2.zero();
+
+      let returnValue = new Vector2();
+      returnValue.copyFrom(original);
+      return returnValue;
+    }
+
     public static zero() { return new Vector2(0, 0); }
     public static one() { return new Vector2(1, 1); }
 

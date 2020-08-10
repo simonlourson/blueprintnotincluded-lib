@@ -4,8 +4,6 @@ import { DrawHelpers } from "./draw-helpers";
 import { ImageSource } from "./image-source";
 import { PixiUtil } from "./pixi-util";
 
-declare var PIXI: any;
-
 export class SpriteInfo 
 {
     public spriteInfoId: string;
@@ -17,6 +15,7 @@ export class SpriteInfo
     public realSize: Vector2 = new Vector2();
     public pivot: Vector2 = new Vector2();
     public isIcon: boolean = false;
+    public isInputOutput: boolean = false;
 
     constructor(spriteInfoId: string)
     {
@@ -84,6 +83,7 @@ export class SpriteInfo
       let pivot = Vector2.clone(original.pivot); if (pivot == null) pivot = new Vector2();
       this.pivot = pivot;
       this.isIcon = original.isIcon;
+      this.isInputOutput = original.isInputOutput;
     }
 
     public static getSpriteInfo(spriteInfoId: string): SpriteInfo
@@ -138,6 +138,6 @@ export class SpriteInfo
       realBleed.x = this.uvMin.x - rectangle.x;
       realBleed.y = this.uvMin.y - rectangle.y;
 
-      return new PIXI.Texture(baseTex, rectangle);
+      return pixiUtil.getNewTexture(baseTex, rectangle);
     }
 }

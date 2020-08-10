@@ -45,3 +45,6 @@ export * from './src/blueprint/blueprint-item-element'
 export * from './src/blueprint/blueprint-item-tile'
 export * from './src/blueprint/blueprint-item-wire'
 
+// del /S *.d.ts.map
+// del /S *.d.ts
+// del /S *.js
