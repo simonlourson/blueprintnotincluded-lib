@@ -35,8 +35,8 @@ export class SpriteModifier
   public cleanUp()
   {
     if (this.rotation == null) this.rotation = 0;
-    if (this.scale == null) this.scale = Vector2.clone(Vector2.One);
-    if (this.translation == null) this.translation = Vector2.clone(Vector2.Zero);
+    if (this.scale == null) this.scale = Vector2.one();
+    if (this.translation == null) this.translation = Vector2.zero();
     if (this.tags == null) this.tags = [];
   }
 

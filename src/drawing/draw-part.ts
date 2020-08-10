@@ -4,7 +4,7 @@ import { OniItem } from "../oni-item";
 import { Vector2 } from "../vector2";
 import { Display } from "../enums/display";
 import { SpriteTag } from "../enums/sprite-tag";
-import { PixiPolyfill } from "./pixi-polyfill";
+import { PixiUtil } from "./pixi-util";
 
 declare var PIXI: any;
 
@@ -12,7 +12,7 @@ export class DrawPart
 {
   spriteModifier!: SpriteModifier;
   spriteInfo!: SpriteInfo;
-  sprite: PIXI.Sprite | undefined;
+  sprite: any; // PIXI.Sprite | undefined;
 
   private alpha_: number = 0;
   get alpha() { return this.alpha_; }
@@ -48,20 +48,20 @@ export class DrawPart
     this.tint = 0xFFFFFF;
   }
 
-  public prepareSprite(container: PIXI.Container, oniItem: OniItem) {
+  public prepareSprite(container: any /*PIXI.Container*/, oniItem: OniItem, pixiUtil: PixiUtil) {
 
     if (!this.isReady) {
       if (this.spriteModifier != null)
         this.spriteInfo = SpriteInfo.getSpriteInfo(this.spriteModifier.spriteInfoName);
 
-      let texture: PIXI.Texture;
+      let texture: any; // PIXI.Texture;
       if (this.spriteInfo != null)
-        texture = this.spriteInfo.getTexture();
+        texture = this.spriteInfo.getTexture(pixiUtil);
     
       if (texture != null) 
       {
         // TODO Invert pivoTY in export
-        this.sprite = PixiPolyfill.pixiPolyfill.getNewSprite(texture);
+        this.sprite = pixiUtil.getSpriteFrom(texture);
 
         //if (!this.sprite.texture.baseTexture.valid) console.log('not valid')
 
@@ -124,11 +124,9 @@ export class DrawPart
     if (this.hasTag(tagFilter)) this.visible = true;
   }
 
-  public addToContainer(container: PIXI.Container) {
+  public addToContainer(container: any /*PIXI.Container*/) {
     if (this.spriteModifier != null)
       this.spriteInfo = SpriteInfo.getSpriteInfo(this.spriteModifier.spriteInfoName);
-
-    
   }
 
 }

@@ -17,8 +17,10 @@ export class BSpriteModifier
 
     returnValue.name = original.name;
     returnValue.spriteInfoName = original.spriteInfoName;
-    returnValue.translation = Vector2.clone(original.translation);
-    returnValue.scale = Vector2.clone(original.scale);
+    let translation = Vector2.clone(original.translation); if (translation == null) translation = new Vector2();
+    returnValue.translation = translation;
+    let scale = Vector2.clone(original.scale); if (scale == null) scale = new Vector2();
+    returnValue.scale = scale;
     returnValue.rotation = original.rotation;
     
     returnValue.tags = [];

@@ -16,9 +16,7 @@ import { Display } from "../enums/display";
 import { Visualization } from "../enums/visualization";
 import { ConnectionHelper } from "../utility-connection";
 import { SpriteInfo } from "../drawing/sprite-info";
-import { PixiPolyfill } from "../drawing/pixi-polyfill";
-
-declare var PIXI: any;
+import { PixiUtil } from "../drawing/pixi-util";
 
 export class BlueprintItem
 {
@@ -67,7 +65,7 @@ export class BlueprintItem
   position: Vector2 = new Vector2();
   orientation: Orientation = Orientation.Neutral;
   rotation: number = 0;
-  scale: Vector2 = Vector2.clone(BlueprintItem.defaultScale);
+  scale = Vector2.one();
   //get oniItem() { return OniItem.getOniItem(this.id); };
   oniItem: OniItem;
 
@@ -195,7 +193,9 @@ export class BlueprintItem
   
   public importMdbBuilding(original: MdbBuilding)
   {
-    this.position = Vector2.clone(original.position);
+    let position = Vector2.clone(original.position);
+    if (position == null) position = Vector2.zero();
+    this.position = position;
     
     if (original.elements != null && original.elements.length > 0)
       for (let indexElement = 0; indexElement < original.elements.length; indexElement++)
@@ -314,7 +314,10 @@ export class BlueprintItem
       id: this.id
     }
 
-    returnValue.position = Vector2.clone(this.position);
+    let position = Vector2.clone(this.position);
+    if (position == null) position = new Vector2(0, 0);
+
+    returnValue.position = position;
     if (this.temperature != BlueprintItem.defaultTemperature) returnValue.temperature = this.temperature;
 
     let elements: string[] = [];
@@ -536,13 +539,13 @@ export class BlueprintItem
 
   // Pixi stuff
   utilitySprites: any[] = [];
-  container: any = PixiPolyfill.pixiPolyfill.getNewContainer();
+  container: any;
   containerCreated: boolean = false;
   reloadCamera: boolean = true;
-  public drawPixi(camera: CameraService)
+  public drawPixi(camera: CameraService, pixiUtil: PixiUtil)
   { 
     
-    this.drawPixiUtility(camera);
+    this.drawPixiUtility(camera, pixiUtil);
 
     if (this.reloadCamera) {
       this.cameraChanged(camera);
@@ -559,12 +562,12 @@ export class BlueprintItem
     // Create the container
     if (!this.containerCreated) 
     {
-      this.container = PixiPolyfill.pixiPolyfill.getNewContainer();
+      this.container = pixiUtil.getNewContainer();
       //this.container.sortableChildren = true;
       camera.addToContainer(this.container)
       this.containerCreated = true;
 
-      for (let drawPart of this.drawParts) drawPart.prepareSprite(this.container, this.oniItem);
+      for (let drawPart of this.drawParts) drawPart.prepareSprite(this.container, this.oniItem, pixiUtil);
     }
 
     
@@ -601,7 +604,7 @@ export class BlueprintItem
     this.container.alpha = this.alpha;
   }
 
-  private drawPixiUtility(camera: CameraService)
+  private drawPixiUtility(camera: CameraService, pixiUtil: PixiUtil)
   {
     if (this.utilitySprites == null) this.utilitySprites = [];
 
@@ -639,10 +642,10 @@ export class BlueprintItem
         let connectionSpriteInfo = SpriteInfo.getSpriteInfo(connectionSprite.spriteInfoId);
         if (connectionSpriteInfo != null)
         {
-          let connectionTexture = connectionSpriteInfo.getTexture();
+          let connectionTexture = connectionSpriteInfo.getTexture(pixiUtil);
           if (connectionTexture != null)
           {
-            this.utilitySprites[connexionIndex] = PIXI.Sprite.from(connectionTexture);
+            this.utilitySprites[connexionIndex] = pixiUtil.getSpriteFrom(connectionTexture);
             
             this.utilitySprites[connexionIndex].tint = tint;
             this.utilitySprites[connexionIndex].zIndex = 200;

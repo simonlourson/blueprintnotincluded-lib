@@ -4,7 +4,7 @@ import { Overlay } from '../enums/overlay';
 import { Display } from '../enums/display';
 import { Visualization } from '../enums/visualization';
 import { OniItem } from '../oni-item';
-import { PixiPolyfill } from './pixi-polyfill';
+import { PixiUtil } from './pixi-util';
 
 declare var PIXI: any;
 
@@ -69,7 +69,7 @@ export class CameraService
 
   public triggerSortChildren: boolean;
 
-  public container: PIXI.Container = PixiPolyfill.pixiPolyfill.getNewContainer();
+  public container: any;
   public addToContainer(child: any) {
     this.container.addChild(child);
     this.triggerSortChildren = true;
@@ -77,13 +77,14 @@ export class CameraService
 
   // For classes that want to use the service and are not created by angular
   private static cameraService_: CameraService;
-  static get cameraService(): CameraService {
-    if (CameraService.cameraService_ == null) CameraService.cameraService_ = new CameraService();
+  static cameraService(pixiUtil: PixiUtil): CameraService {
+    if (CameraService.cameraService_ == null) CameraService.cameraService_ = new CameraService(pixiUtil.getNewContainer());
     return CameraService.cameraService_;
   }
 
-  constructor()
+  constructor(container: any)
   {
+    this.container = container;
     this.cameraOffset = new Vector2();
     this.targetCameraOffset = new Vector2();
     this.currentZoomIndex = 7;

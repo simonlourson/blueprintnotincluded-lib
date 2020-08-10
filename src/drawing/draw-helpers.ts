@@ -147,6 +147,7 @@ export class DrawHelpers
     );
   }
 
+  // TODO Remove this, generated in the Oxygen not Included export now 
   public static generateTileSpriteInfo(kanimPrefix: string, textureName: string): BSpriteInfo[]
   {
     let returnValue: BSpriteInfo[] = []
@@ -179,8 +180,9 @@ export class DrawHelpers
       //console.log(l+';'+r+';'+u+';'+d);
 
       let pivot = new Vector2(0.5, 0.5);
-      let uv: Vector2 = Vector2.clone(currentUv);
-      let size: Vector2 = Vector2.clone(uvSize);
+      // We know the clone will not be null because it is defined higher, so we can add "!"
+      let uv: Vector2 = Vector2.clone(currentUv)!;
+      let size: Vector2 = Vector2.clone(uvSize)!;
       
       if (!l && !r && !u && !d) newSourceUv.name = newSourceUv.name + 'None';
 
@@ -210,18 +212,11 @@ export class DrawHelpers
       
       newSourceUv.name = newSourceUv.name + '_place';
       
-      newSourceUv.uvMin = Vector2.clone(uv);
-      newSourceUv.uvSize = Vector2.clone(size);
+      // We know the clones will not be nullso we can add "!"
+      newSourceUv.uvMin = Vector2.clone(uv)!;
+      newSourceUv.uvSize = Vector2.clone(size)!;
       newSourceUv.realSize = new Vector2(size.x / 1.28, size.y / 1.28);
-      newSourceUv.pivot = Vector2.clone(pivot);
-
-      //console.log(newSourceUv);
-
-      /*
-      console.log(uv);
-      console.log(size);
-      console.log(pivot);
-      */
+      newSourceUv.pivot = Vector2.clone(pivot)!;
 
       l = !l;
 

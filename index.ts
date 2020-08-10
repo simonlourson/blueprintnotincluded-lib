@@ -36,7 +36,7 @@ export * from './src/drawing/image-source'
 export * from './src/drawing/draw-helpers'
 export * from './src/drawing/draw-part'
 export * from './src/drawing/camera-service'
-export * from './src/drawing/pixi-polyfill'
+export * from './src/drawing/pixi-util'
 
 export * from './src/blueprint/blueprint'
 export * from './src/blueprint/blueprint-helpers'
@@ -45,4 +45,3 @@ export * from './src/blueprint/blueprint-item-element'
 export * from './src/blueprint/blueprint-item-tile'
 export * from './src/blueprint/blueprint-item-wire'
 
-export * from './src/drawing/node-canvas-ressource'

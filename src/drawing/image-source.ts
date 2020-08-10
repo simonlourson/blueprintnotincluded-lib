@@ -1,6 +1,4 @@
-import { PixiPolyfill } from "./pixi-polyfill";
-
-declare var PIXI: any;
+import { PixiUtil } from "./pixi-util";
 
 export class ImageSource
 {
@@ -16,7 +14,7 @@ export class ImageSource
     // PIXI stuff
     private static imageSourcesMapPixi: Map<string, ImageSource>;
     public static get keys() { return Array.from(ImageSource.imageSourcesMapPixi.keys()); }
-    private baseTexture: PIXI.BaseTexture | undefined;
+    private baseTexture: any; // PIXI.BaseTexture | undefined;
     public static init()
     { 
       ImageSource.imageSourcesMapPixi = new Map<string, ImageSource>();
@@ -36,22 +34,20 @@ export class ImageSource
       return imageSource.baseTexture != null;
     }
 
-    public static getBaseTexture(imageId: string): PIXI.BaseTexture | undefined
+    public static getBaseTexture(imageId: string, pixiUtil: PixiUtil): any // PIXI.BaseTexture | undefined
     {
       let imageSource: ImageSource | undefined = ImageSource.imageSourcesMapPixi.get(imageId);
 
       if (imageSource == null) return undefined;
 
       if (imageSource.baseTexture == null) {
-        if (!PixiPolyfill.backend) {
-          imageSource.baseTexture = PixiPolyfill.pixiPolyfill.getNewBaseTexture(imageSource.imageUrl);
-        }
+        imageSource.baseTexture = pixiUtil.getNewBaseTexture(imageSource.imageUrl);
       }
      
       return imageSource.baseTexture;
     }
 
-    public static setBaseTexture(imageId: string, baseTexture: PIXI.BaseTexture)
+    public static setBaseTexture(imageId: string, baseTexture: any /*PIXI.BaseTexture*/)
     {
       let imageSource: ImageSource | undefined = ImageSource.imageSourcesMapPixi.get(imageId);
 

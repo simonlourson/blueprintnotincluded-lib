@@ -55,7 +55,8 @@ export class Vector2
       return returnValue;
     }
 
-    public static zero() { return Vector2.clone(Vector2.Zero); }
+    public static zero() { return new Vector2(0, 0); }
+    public static one() { return new Vector2(1, 1); }
 
     public static Zero = new Vector2();
     public static One = new Vector2(1, 1);
