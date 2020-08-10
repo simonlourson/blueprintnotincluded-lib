@@ -77,13 +77,13 @@ export class CameraService
 
   // For classes that want to use the service and are not created by angular
   private static cameraService_: CameraService;
-  static cameraService(pixiUtil: PixiUtil): CameraService {
-    if (CameraService.cameraService_ == null) CameraService.cameraService_ = new CameraService(pixiUtil.getNewContainer());
+  static get cameraService(): CameraService {
     return CameraService.cameraService_;
   }
 
   constructor(container: any)
   {
+    CameraService.cameraService_ = this;
     this.container = container;
     this.cameraOffset = new Vector2();
     this.targetCameraOffset = new Vector2();
