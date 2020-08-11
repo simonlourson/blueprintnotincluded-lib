@@ -83,7 +83,7 @@ export class CameraService
 
   constructor(container: any)
   {
-    CameraService.cameraService_ = this;
+    if (CameraService.cameraService_ == null) CameraService.cameraService_ = this;
     this.container = container;
     this.cameraOffset = new Vector2();
     this.targetCameraOffset = new Vector2();

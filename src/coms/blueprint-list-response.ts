@@ -17,11 +17,16 @@ export interface BlueprintListItem
   thumbnail: string;
   nbLikes: number;
   likedByMe: boolean;
+  ownedByMe: boolean;
 }
 
 export interface BlueprintLike {
   blueprintId: string;
   like: boolean;
+}
+
+export interface BlueprintDelete {
+  blueprintId: string;
 }
 
 export interface BlueprintResponse {

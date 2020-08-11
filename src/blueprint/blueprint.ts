@@ -11,13 +11,15 @@ import { MdbBlueprint } from '../io/mdb/mdb-blueprint';
 import { BniBuilding } from '../io/bni/bni-building';
 import { Overlay } from '../enums/overlay';
 import { DrawHelpers } from '../drawing/draw-helpers';
-import { UtilityConnection } from '../utility-connection';
+import { UtilityConnectionTracker } from '../utility-connection';
 
 export class Blueprint
 {
   blueprintItems: BlueprintItem[];
   templateTiles: BlueprintItem[][] = [];
-  utilities: UtilityConnection[][] = [];
+
+  // We need a utility map because some objects have utilities outside of their size (HighWattageWireBridge)
+  utilities: UtilityConnectionTracker[][] = [];
 
   innerYaml: any;
 
@@ -180,6 +182,17 @@ export class Blueprint
     if (blueprintItem.tileIndexes == null) blueprintItem.prepareBoundingBox();
 
     for (let tileIndex of blueprintItem.tileIndexes) this.getBlueprintItemsAtIndex(tileIndex).push(blueprintItem);
+    for (let connection of blueprintItem.oniItem.utilityConnections) {
+      let connectionPosition = Vector2.cloneNullToZero(connection.offset);
+      connectionPosition = DrawHelpers.rotateVector2(connectionPosition, Vector2.Zero, blueprintItem.rotation);
+      connectionPosition = DrawHelpers.scaleVector2(connectionPosition, Vector2.Zero, blueprintItem.scale);
+      connectionPosition.x += blueprintItem.position.x;
+      connectionPosition.y += blueprintItem.position.y;
+
+      let newUtilityTracker: UtilityConnectionTracker = {blueprintItem: blueprintItem, utilityConnection: connection};
+      this.getUtilityConnectionsAtIndex(DrawHelpers.getTileIndex(connectionPosition)).push(newUtilityTracker);
+      //console.log(this.getUtilityConnectionsAtIndex(DrawHelpers.getTileIndex(connectionPosition)))
+    }
   
     this.emitItemAdded(blueprintItem);
   }
@@ -218,6 +231,25 @@ export class Blueprint
         if (indexInTileMap > -1) this.templateTiles[tileIndex].splice(indexInTileMap, 1);
       }
 
+    // Then from the utility map
+    for (let connection of templateItem.oniItem.utilityConnections) {
+      let connectionPosition = Vector2.cloneNullToZero(connection.offset);
+      connectionPosition = DrawHelpers.rotateVector2(connectionPosition, Vector2.Zero, templateItem.rotation);
+      connectionPosition = DrawHelpers.scaleVector2(connectionPosition, Vector2.Zero, templateItem.scale);
+      connectionPosition.x += templateItem.position.x;
+      connectionPosition.y += templateItem.position.y;
+
+      let utilitiesAtPosition = this.getUtilityConnectionsAtIndex(DrawHelpers.getTileIndex(connectionPosition));
+      for (let index = 0; index < utilitiesAtPosition.length; index++) {
+        if (utilitiesAtPosition[index].blueprintItem == templateItem && utilitiesAtPosition[index].utilityConnection == connection)
+        {
+          utilitiesAtPosition.splice(index, 1);
+          break;
+        }
+      }
+      //console.log(utilitiesAtPosition)
+    }
+
     // Then remove from the item list, 
     const index = this.blueprintItems.indexOf(templateItem, 0);
     if (index > -1) this.blueprintItems.splice(index, 1);
@@ -243,6 +275,19 @@ export class Blueprint
     {
       returnValue = [];
       this.templateTiles[index] = returnValue;
+    }
+
+    return returnValue;
+  }
+
+  public getUtilityConnectionsAtIndex(index: number): UtilityConnectionTracker[] {
+    if (this.utilities == null) this.utilities = [];
+
+    let returnValue = this.utilities[index];
+    if (returnValue == null)
+    {
+      returnValue = [];
+      this.utilities[index] = returnValue;
     }
 
     return returnValue;
