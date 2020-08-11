@@ -11,6 +11,7 @@ import { BBuilding } from "./b-export/b-building";
 import { StringHelpers } from "./string-helpers";
 import { SpriteModifier } from "./drawing/sprite-modifier";
 import { BuildMenuItem, BuildMenuCategory } from "./b-export/b-build-order";
+import { BuildLocationRule } from "./enums/build-location-rule";
 
 export class OniItem
 {
@@ -57,6 +58,8 @@ export class OniItem
     else if (value == PermittedRotations.R360) this.orientations = [Orientation.Neutral, Orientation.R90, Orientation.R180, Orientation.R270];
   }
 
+  buildLocationRule: BuildLocationRule = BuildLocationRule.Anywhere;
+
   // Overlay
   zIndex: ZIndex = ZIndex.Building;
   overlay: Overlay = Overlay.Base;
@@ -89,6 +92,7 @@ export class OniItem
 
     this.tileableLeftRight = original.tileableLeftRight;
     this.tileableTopBottom = original.tileableTopBottom;
+    this.buildLocationRule = original.buildLocationRule;
 
     // TODO not sure if this is usefull still
     let imageId: string = original.textureName;
@@ -168,7 +172,7 @@ export class OniItem
     if (this.tileableTopBottom == null) this.tileableTopBottom = false;
     if (this.defaultElement == null || this.defaultElement.length == 0) this.defaultElement = [BuildableElement.getElement('Vacuum')];
     if (this.overlay == null) this.overlay = Overlay.Base;
-    
+    if (this.buildLocationRule == null) this.buildLocationRule = BuildLocationRule.Anywhere;
 
     if (Vector2.Zero.equals(this.size)) this.tileOffset = Vector2.Zero;
     else

@@ -6,6 +6,7 @@ import { PermittedRotations } from '../enums/permitted-rotations';
 import { BUiScreen } from "../b-export/b-ui-screen";
 import { Vector2 } from "../vector2";
 import { ZIndex } from "../enums/z-index";
+import { BuildLocationRule } from "../enums/build-location-rule";
 
 // A building (exported from the game)
 export class BBuilding
@@ -35,6 +36,7 @@ export class BBuilding
   dragBuild: boolean = false;
   objectLayer: number = 0;
   permittedRotations: PermittedRotations = PermittedRotations.Unrotatable;
+  buildLocationRule: BuildLocationRule = BuildLocationRule.Anywhere;
 
   tileableLeftRight:boolean = false;
   tileableTopBottom: boolean = false;
