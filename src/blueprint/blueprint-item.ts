@@ -25,7 +25,7 @@ export class BlueprintItem
   static defaultTemperature = 30+273.15;
 
   public id: string;
-  public temperature: number = 0;
+  public temperature: number = BlueprintItem.defaultTemperature;
   public get temperatureCelcius() { return this.temperature - 273.15; }
   public set temperatureCelcius(value: number) { this.temperature = value + 273.15 }
   public get temperatureScale() { return DrawHelpers.temperatureToScale(this.temperature); }
@@ -60,6 +60,9 @@ export class BlueprintItem
     this.selected_ = value; 
     if (!this.selected) this.reloadCamera = true;
   }
+
+  public isBuildCandidate: boolean = false;
+  public buildCandidateResult: BuildCandidateResult = new BuildCandidateResult();
 
   // TODO getter setter with prepare bounding box
   position: Vector2 = new Vector2();
@@ -451,6 +454,8 @@ export class BlueprintItem
     else if (this.oniItem.isOverlaySecondary(camera.overlay)) this.depth = this.oniItem.zIndex + 50;
     else this.depth = this.oniItem.zIndex;
 
+    if (this.isBuildCandidate) this.depth = 199;
+
     this.visualizationTint = -1;
     for (let drawPart of this.drawParts) {
       drawPart.prepareVisibilityBasedOnDisplay(camera.display);
@@ -499,6 +504,44 @@ export class BlueprintItem
 
       this.applyTileablesToDrawPart(drawPart);
     } 
+  }
+
+  modulateBuildCandidateTint(camera: CameraService) {
+    for (let drawPart of this.drawParts) {
+      if (camera.display == Display.solid) {
+        if (drawPart.hasTag(SpriteTag.white)) {
+          if (this.buildCandidateResult.canBuild) {
+            drawPart.visible = false;
+          }
+          else {
+            drawPart.visible = true;
+            drawPart.zIndex = 1;
+            drawPart.tint = 0xEF0000;
+            drawPart.alpha = 0.7;
+          }
+        }
+      }
+      else if (camera.display == Display.blueprint) { 
+        if (drawPart.hasTag(SpriteTag.place)) {
+          if (this.buildCandidateResult.canBuild) {
+            drawPart.tint = 0xFFFFFF;
+          }
+          else {
+            drawPart.tint = 0xEA3333;
+          }
+        }
+        else if (drawPart.hasTag(SpriteTag.white)) {
+          if (this.buildCandidateResult.canBuild) {
+            drawPart.tint = this.oniItem.backColor;
+          }
+          else {
+            drawPart.tint = 0xEA3333;
+          }
+        }
+      }
+
+      this.applyTileablesToDrawPart(drawPart);
+    }
   }
 
   modulateSelectedTint(camera: CameraService) {
@@ -558,6 +601,7 @@ export class BlueprintItem
     }
 
     if (this.selected) this.modulateSelectedTint(camera);
+    if (this.isBuildCandidate) this.modulateBuildCandidateTint(camera);
 
     // Create the container
     if (!this.containerCreated) 
@@ -735,5 +779,12 @@ export class BlueprintItem
 
     this.destroyed = true;
   }
+
+}
+
+export class BuildCandidateResult {
+  public canBuild: boolean = true;
+  public cantBuildReason: string = '';
+
 
 }

@@ -11,11 +11,13 @@ import { MdbBlueprint } from '../io/mdb/mdb-blueprint';
 import { BniBuilding } from '../io/bni/bni-building';
 import { Overlay } from '../enums/overlay';
 import { DrawHelpers } from '../drawing/draw-helpers';
+import { UtilityConnection } from '../utility-connection';
 
 export class Blueprint
 {
   blueprintItems: BlueprintItem[];
   templateTiles: BlueprintItem[][] = [];
+  utilities: UtilityConnection[][] = [];
 
   innerYaml: any;
 

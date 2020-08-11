@@ -41,6 +41,28 @@ export class ConnectionHelper
     }
   }
 
+  public static getConnectionName(connectionType: ConnectionType): string
+  {
+    switch (connectionType)
+    {
+      case ConnectionType.POWER_OUTPUT: return 'Power Output';
+      case ConnectionType.POWER_INPUT: return 'Power Input';
+      case ConnectionType.GAS_INPUT: return 'Gas Input';
+      case ConnectionType.GAS_OUTPUT: return 'Gas Output';
+      case ConnectionType.LIQUID_INPUT: return 'Liquid Input';
+      case ConnectionType.LIQUID_OUTPUT: return 'Liquid Output';
+      case ConnectionType.LOGIC_INPUT: return 'Logic Input';
+      case ConnectionType.LOGIC_OUTPUT: return 'Logic Output';
+      case ConnectionType.LOGIC_RIBBON_INPUT: return 'Logic Ribbon Input';
+      case ConnectionType.LOGIC_RIBBON_OUTPUT: return 'Logic Ribbon Output';
+      case ConnectionType.LOGIC_RESET_UPDATE: return 'Logic Reset Input';
+      case ConnectionType.LOGIC_CONTROL_INPUT: return 'Logic Control Input';
+      case ConnectionType.SOLID_INPUT: return 'Conveyor Input';
+      case ConnectionType.SOLID_OUTPUT: return 'Conveyor Output';
+      default: return 'Unkown';
+    }
+  }
+
   public static getConnectionSprite(connectionType: UtilityConnection): ConnectionSprite
   {
     // TODO isInput as boolean

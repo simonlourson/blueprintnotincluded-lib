@@ -29,6 +29,11 @@ export class BlueprintItemTile extends BlueprintItem
     this.updateDrawPartVisibilityBasedOnConnections();
   }
 
+  modulateBuildCandidateTint(camera: CameraService) {
+    super.modulateBuildCandidateTint(camera);
+    this.updateDrawPartVisibilityBasedOnConnections();
+  }
+
   private updateDrawPartVisibilityBasedOnConnections() {
     if (this.drawParts != null)
       for (let drawPart of this.drawParts)

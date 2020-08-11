@@ -10,6 +10,7 @@ export * from './src/enums/permitted-rotations'
 export * from './src/enums/sprite-tag'
 export * from './src/enums/visualization'
 export * from './src/enums/z-index'
+export * from './src/enums/build-location-rule'
 
 export * from './src/io/bni/bni-building'
 export * from './src/io/bni/bni-blueprint'
