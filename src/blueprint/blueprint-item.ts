@@ -211,7 +211,7 @@ export class BlueprintItem
     }
 
     // TODO default temperature
-    if (original.temperature == undefined) this.temperature = 0;
+    if (original.temperature == undefined) this.temperature = BlueprintItem.defaultTemperature;
     else this.temperature = original.temperature;
     this.changeOrientation(original.orientation);
 

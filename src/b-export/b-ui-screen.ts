@@ -173,7 +173,7 @@ export class BBitSelectorSideScreen extends BUiScreen {
   }
 
   getDefaultValue(index: number): any { 
-    if (index == 0) return 1;
+    if (index == 0) return 0;
     else return null;
   }
 
