@@ -352,7 +352,7 @@ export class Blueprint
     }
 
     for (let originalTemplateItem of this.blueprintItems)
-      if (originalTemplateItem.id != 'Element')
+      if (originalTemplateItem.id != OniItem.elementId && originalTemplateItem.id != OniItem.infoId)
         returnValue.buildings.push(originalTemplateItem.toBniBuilding());
     
     return returnValue;
