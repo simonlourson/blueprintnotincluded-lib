@@ -1,127 +1,127 @@
 {
   "program": {
     "fileInfos": {
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es6.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es6.d.ts": {
         "version": "c180f01a2aaac7d733001fa1db20f881dc83cf33096b674a1546ca26762e69da",
         "signature": "c180f01a2aaac7d733001fa1db20f881dc83cf33096b674a1546ca26762e69da"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es5.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es5.d.ts": {
         "version": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0",
         "signature": "1f753cee573dea40df8a9dc873fef5566957b19ad513874f6643d8dfb14842d0"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.d.ts": {
         "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
         "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2016.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2016.d.ts": {
         "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
         "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.d.ts": {
         "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
         "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.d.ts": {
         "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
         "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.dom.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.dom.d.ts": {
         "version": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4",
         "signature": "973df4e41aea3780ce77073777d37dd5896f684124f4c42409f3a832133837a4"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
         "version": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a",
         "signature": "eb843da29336c7d5840bb439b24cf68a4a1652fd01c6e4e66ec74d8b136e944a"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
         "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
         "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.scripthost.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.scripthost.d.ts": {
         "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
         "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.core.d.ts": {
         "version": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52",
         "signature": "2a0390a665763bcc90f0670e43c587928d8fefe2a94a11209c1e22cba7b09f52"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
         "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
         "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
         "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
         "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
         "version": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21",
         "signature": "6c9f73334f8bf47aea685ca5b46a8f7e992a223e96fbceb030f26a4d2324ba21"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
         "version": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2",
         "signature": "e6b8ff2798f8ebd7a1c7afd8671f2cb67ee1901c422f5964d74b0b34c6574ea2"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
         "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
         "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
         "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
         "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
         "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
         "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
         "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
         "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
         "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
         "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.object.d.ts": {
         "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
         "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
         "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
         "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.string.d.ts": {
         "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
         "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
         "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
         "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
         "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
         "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
         "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
         "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
         "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
         "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
         "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
         "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
         "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
         "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
         "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
         "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
         "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
@@ -161,10 +161,6 @@
         "version": "ef4589b38b7def067f4083794473666d61ed5e17567369863414f3f47b67837d",
         "signature": "52e019e631a6552d639e8d14a4bc84d21f73470e8470a252a19f8b937cb83b82"
       },
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts": {
-        "version": "3c9911c1ef57a09af47f20e5ed49e3a94f1c042cfc632558e1a57052e4289a77",
-        "signature": "4e4c7833b4ea8616bef75f78e3f6d21e02fdc55ee7c18919c5bcbde6ec78f9f2"
-      },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/display.ts": {
         "version": "2022284b19f8434b447ae19346d594496cb2a6a3bce757cdbd9208be78372ded",
         "signature": "6715be9a5313546112ff7b016024596e246b028526b2a62f382d69f0192ebe9f"
@@ -178,8 +174,8 @@
         "signature": "d42a80e92fcce64c5c3c79cd1f0baa6a835d3c0aebd618a3d2554f0ccd9ca25d"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/sprite-tag.ts": {
-        "version": "1b1f4c3e445a8b038aff576e3d78f524f2c49d84e8f0548859f15fa2f6b307de",
-        "signature": "0a32af0b762c43fb19f9f8705f8b8238f70eb73ca0b08dff9895a39a6804b742"
+        "version": "97d27f3ec4d078eda17c98d1a0e1e7ec9060c791f5f2eea526632fefcd05d661",
+        "signature": "a9608097972b6536dfeca58d0e5764f95c6ea854def1e257286f7854086e11c4"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-sprite-modifier.ts": {
         "version": "f6aa2febcc56efaccdc09965c691b7d2f1d47aa6cb6bc97fed19faaca0697178",
@@ -214,20 +210,28 @@
         "signature": "8931d18f4d6465c0746a7e3af7b16562c62a1fd5221fce8f057f277b3981eee3"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/oni-item.ts": {
-        "version": "128754790706c655d73d6a7eeb058c36b3f2754a862ff6c77d92467f3a96b83b",
-        "signature": "edd223a2e1808a256f790055b7731ab9696b73c520ca5871b812b93f542094ad"
+        "version": "1b76ebb158d1c7bafbbce42b31f2a548ff3c6e96851ce6808df94b510cabab92",
+        "signature": "7e0fc937489d007bd4c66352802cb2ad5224ac1be705552c309f89ba51687906"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/pixi-util.ts": {
         "version": "4d41a15553b0051a2bd2ab421831359cf3df5e5259616b33b1b84a1f0fda8db3",
         "signature": "0c0ecc9f0e6a58a0c135db11380bf328cf2681bfcd938896daeeabffe58c3858"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/camera-service.ts": {
-        "version": "fa4ba140f0b8c9d008c177f5acb25fd3eb382ca240570b29a65104d625d6cdc3",
-        "signature": "ad4c97757b4d9837f05cd860503222a8e97212e066ec4a6908524c0defa394bd"
+        "version": "6a8c9e8c276796cb3bced45c1e36dd2f7bb7bf2ef9029aa930cac568c79ee218",
+        "signature": "194fc50ea9d574ddfd5ceea9da04e514b10bd07e555d255f038e0a6d494c1ec9"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/draw-helpers.ts": {
         "version": "90622878b07938a956ab622ac86d460563169086b0e34fcb8150803077d88334",
         "signature": "eb9eedb54b32cac19f6b7f15d0c146cc0a8cecae0c2f6a8ef57159384e8173a4"
+      },
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts": {
+        "version": "4629bdcb0207a9b9bba37c57e1882e1f16c60b847408cc35b49ba9214ec837b3",
+        "signature": "5d3e9cdefe1d35943b61284fe00e36d6132d28bc3964e7f1a9e43163e51b8f31"
+      },
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts": {
+        "version": "e751c41ce6d852be0e5b8f96de42b220248935d04deac97fa5d04792a98d47cb",
+        "signature": "474979ee33653ca59eaac78a63652d644974cebe6da24c90755504a149cac42d"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-wire.ts": {
         "version": "8ae1e730c200ea3f9c96f1e6364666c16ed4b6ac27e278d6db40e62a845f8d2d",
@@ -262,12 +266,12 @@
         "signature": "54f29500ffcee3d42bf09fdaccb1e9c02aa3258c1756ac026ecc1a34c4d2cc4d"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-element.ts": {
-        "version": "7a17a10abef157153bb894a5b9c633ff82c53acfe706e2b0901453fe5d53d66e",
+        "version": "1ac1aa97d154fd57f57127da34036ae46b9be56732ce8d123fcd1b5f1e39242e",
         "signature": "90b129a16b29858c07bfb315cc31214a0617679208e91a4fdf6947e74dd1cca5"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-helpers.ts": {
-        "version": "71be759550a92f26a7256d96f49188df011f9b4669745940ced83f6b0bb85397",
-        "signature": "b1a7e71c809a5cb47d7a3c184115f61cfebfc66d50152600b667a9ab417d51d0"
+        "version": "bfa603585bb764b7d8ccba7ed68391c65b975db9d15381d6968a8cfabeaeda45",
+        "signature": "62cf06ffe051491c6e2f951d660bf73f138f7771c49888e6e8485ef76f7b842a"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/oni/oni-cell.ts": {
         "version": "262094debb95e0c2c0743097942c54f2f6f42bb403fa1ae36f27235caca605e1",
@@ -286,7 +290,7 @@
         "signature": "aaf2db20908e9b9842b5021dc78aa66a6287a1e14a6a0755b60cec5337925d47"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint.ts": {
-        "version": "e7eb99e1732fc3980907929d7679ca7df54f7e5c5bbbb8a05ed2786fa543e82d",
+        "version": "596b99b4e6207a745a05497639bdbbee99b98659fbbac36b7de2d8bac88655c4",
         "signature": "4d1b358f5b7b532e19df4bc3cc1a15d31dd258622c0fd2ec8849d82be92cc328"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/image-source.ts": {
@@ -320,10 +324,6 @@
       "d:/blueprintnotincluded/blueprintnotincluded-lib/index.ts": {
         "version": "7ecdbbb526b66002f134c2f0a7b8caa54d8e6e811ddd57463b082cf4ca25cdc0",
         "signature": "1f3ddf3b52b5493eeb295c7adeeaa570362b20f3891778a2b07c09f959b33797"
-      },
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts": {
-        "version": "08635ff03afba5d5f409ff00902c8a57b7dada4fda6cf9ed8fb5f4b0501b5595",
-        "signature": "0cfc1e48990f3584cba9aa9e433f917aa96223a4256a42e06f215b1e74ad29ef"
       },
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/globals.d.ts": {
         "version": "c7e7b89f371a6af12ab460b75fba60c95bbea84c094583087aff14b76b86ce7d",
@@ -544,7 +544,7 @@
       "configFilePath": "D:/blueprintnotincluded/blueprintnotincluded-lib/tsconfig.json"
     },
     "referencedMap": {
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es6.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es6.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -552,7 +552,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es5.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es5.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -560,7 +560,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -568,7 +568,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2016.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2016.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -576,7 +576,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -584,7 +584,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -592,7 +592,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.dom.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.dom.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -600,7 +600,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -608,7 +608,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -616,7 +616,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.scripthost.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.scripthost.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -624,7 +624,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.core.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -632,7 +632,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -640,7 +640,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -648,7 +648,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -656,7 +656,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -664,7 +664,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -672,7 +672,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -680,7 +680,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -688,7 +688,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -696,7 +696,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -704,7 +704,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.object.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -712,7 +712,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -720,7 +720,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.string.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -728,7 +728,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -736,7 +736,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -744,7 +744,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -752,7 +752,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -760,7 +760,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -768,7 +768,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -776,7 +776,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -784,7 +784,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -860,16 +860,6 @@
       ],
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-ui-screen.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/string-helpers.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/vector2.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-ui-screen.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -1049,6 +1039,34 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/camera-service.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/overlay.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/sprite-tag.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/display.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/visualization.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/draw-helpers.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/vector2.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-ui-screen.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-wire.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item.ts",
@@ -1155,6 +1173,7 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-tile.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-element.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/oni-item.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -1359,23 +1378,6 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-element.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-tile.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-wire.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/camera-service.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/overlay.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/sprite-tag.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/display.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/visualization.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/draw-helpers.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
@@ -1886,261 +1888,9 @@
       ]
     },
     "exportedModulesMap": {
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es6.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es5.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2016.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.dom.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.scripthost.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.core.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.object.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.string.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/bni/bni-building.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/vector2.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/orientation.ts"
-      ],
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/vector2.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-ui-screen.ts"
       ],
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-sprite-modifier.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/vector2.ts",
@@ -2196,6 +1946,17 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/vector2.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-sprite-info.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/sprite-tag.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/camera-service.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/vector2.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-ui-screen.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts"
       ],
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-wire.ts": [
         "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/oni/oni-building.ts",
@@ -2880,45 +2641,287 @@
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
         "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts": [
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/camera-service.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item.ts",
-        "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts"
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es6.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es5.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.dom.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/fs.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/process.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/util.d.ts",
+        "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es6.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es5.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2016.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.dom.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.dom.iterable.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.scripthost.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-backend/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es6.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2016.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.dom.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/vector2.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/connection-type.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/overlay.ts",
@@ -2936,21 +2939,39 @@
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-sprite-info.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/permitted-rotations.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/enums/build-location-rule.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-building.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/sprite-modifier.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/sprite-modifier-group.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-build-order.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/oni-item.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/pixi-util.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/camera-service.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/draw-helpers.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-wire.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/csharp-binary-stream/dist/encoding.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/csharp-binary-stream/dist/binaryreader.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/csharp-binary-stream/dist/binarywriter.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/csharp-binary-stream/dist/errors/endofstreamerror.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/csharp-binary-stream/dist/errors/invalidutf8charactererror.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/csharp-binary-stream/dist/index.d.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-tile.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-element.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-helpers.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/oni/oni-cell.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/oni/oni-template.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/bni/bni-blueprint.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-blueprint.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/image-source.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/sprite-info.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/draw-part.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/utility-connection.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-export.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/src/coms/blueprint-list-response.ts",
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/index.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/globals.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/async_hooks.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/buffer.d.ts",
@@ -3001,25 +3022,7 @@
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.5/wasi.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.5/base.d.ts",
       "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/assert.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.5/index.d.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-building.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-building.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/sprite-modifier.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/sprite-modifier-group.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/oni-item.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/camera-service.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-wire.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-tile.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-element.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-helpers.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/io/mdb/mdb-blueprint.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/drawing/draw-part.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/utility-connection.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/b-export/b-export.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/index.ts",
-      "d:/blueprintnotincluded/blueprintnotincluded-lib/src/blueprint/blueprint-item-info.ts"
+      "d:/blueprintnotincluded/blueprintnotincluded-lib/node_modules/@types/node/ts3.5/index.d.ts"
     ]
   },
   "version": "3.5.3"

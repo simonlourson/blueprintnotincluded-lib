@@ -41,6 +41,10 @@ export class BlueprintItemInfo extends BlueprintItem
   static defaultIcon: InfoIcon = InfoIcon.icon_inf;
   icon: InfoIcon = InfoIcon.icon_inf;
 
+  get htmlFrontColor() {return DrawHelpers.colorToHex(this.frontColor);}
+  get htmlBackColor() {return DrawHelpers.colorToHex(this.backColor);}
+  get htmlSvgPath() {return BlueprintItemInfo.getIconSvgPath(this.icon);}
+
   constructor(id: string)
   {
     super(id);
@@ -108,14 +112,14 @@ export class BlueprintItemInfo extends BlueprintItem
 
     for (let drawPart of this.drawParts) {
 
-      if (drawPart.hasTag(SpriteTag.element_gas_back)) {
+      if (drawPart.hasTag(SpriteTag.info_back)) {
         drawPart.visible = true;
         drawPart.zIndex = 0;
         drawPart.alpha = 1;
         this.visualizationTint = this.backColor;
         drawPart.tint = this.backColor;
       }
-      else if (drawPart.hasTag(SpriteTag.element_gas_front)) {
+      else if (drawPart.hasTag(SpriteTag.info_front)) {
         drawPart.visible = true;
         drawPart.zIndex = 0;
         drawPart.alpha = 1;
@@ -127,7 +131,7 @@ export class BlueprintItemInfo extends BlueprintItem
 
   modulateSelectedTint(camera: CameraService) {
     for (let drawPart of this.drawParts) {
-      if (drawPart.hasTag(SpriteTag.element_gas_back)) {
+      if (drawPart.hasTag(SpriteTag.info_back)) {
         if (this.visualizationTint != -1) {
           // If the drawPart is visible, we assume the code before already set the correct values, and we just modulate the tint
           drawPart.tint = DrawHelpers.blendColor(this.visualizationTint, 0x4CFF00, camera.sinWave)

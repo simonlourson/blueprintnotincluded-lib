@@ -70,7 +70,7 @@ export class BlueprintItemElement extends BlueprintItem
       // TODO boolean in export
       // TODO Refactor most of this
       if (this.buildableElements[0].hasTag('Gas') && camera.display == Display.solid && (camera.overlay == Overlay.Base || camera.overlay == Overlay.Gas)) {
-        if (drawPart.hasTag(SpriteTag.element_gas_back)) {
+        if (drawPart.hasTag(SpriteTag.element_back)) {
           drawPart.visible = true;
           drawPart.zIndex = 0;
           drawPart.alpha = 0.5;
@@ -92,7 +92,7 @@ export class BlueprintItemElement extends BlueprintItem
         }
       }
       else if (this.buildableElements[0].hasTag('Liquid') && camera.display == Display.solid && (camera.overlay == Overlay.Base || camera.overlay == Overlay.Liquid)) {
-        if (drawPart.hasTag(SpriteTag.element_gas_back)) {
+        if (drawPart.hasTag(SpriteTag.element_back)) {
           drawPart.visible = true;
           drawPart.zIndex = 0;
           drawPart.alpha = 0.5;
@@ -129,7 +129,7 @@ export class BlueprintItemElement extends BlueprintItem
       for (let drawPart of this.drawParts) {
         
         // TODO maybe the gas and liquid element should have different tintable backs? fine for now
-        if (drawPart.hasTag(SpriteTag.element_gas_back) && drawPart.visible && this.visualizationTint != -1) {
+        if (drawPart.hasTag(SpriteTag.element_back) && drawPart.visible && this.visualizationTint != -1) {
           drawPart.tint = DrawHelpers.blendColor(this.visualizationTint, 0x4CFF00, camera.sinWave)
         }
       }

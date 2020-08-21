@@ -29,6 +29,7 @@ export class OniItem
   isWire: boolean = false;
   isTile: boolean = false;
   isBridge: boolean = false;
+  // TODO this should be a get like isInfo
   isElement: boolean = false;
   get isInfo(): boolean { return this.id == OniItem.infoId; }
   size: Vector2 = new Vector2();
@@ -220,7 +221,7 @@ export class OniItem
     elementOniItem.isElement = true;
     elementOniItem.zIndex = ZIndex.GasFront;
     elementOniItem.spriteGroup = new SpriteModifierGroup();
-    elementOniItem.spriteGroup.spriteModifiers.push(SpriteModifier.getSpriteModifer('gas_tile'));
+    elementOniItem.spriteGroup.spriteModifiers.push(SpriteModifier.getSpriteModifer('element_tile_back'));
     elementOniItem.spriteGroup.spriteModifiers.push(SpriteModifier.getSpriteModifer('gas_tile_front'));
     elementOniItem.spriteGroup.spriteModifiers.push(SpriteModifier.getSpriteModifer('liquid_tile_front'));
     elementOniItem.spriteGroup.spriteModifiers.push(SpriteModifier.getSpriteModifer('vacuum_tile_front'));
@@ -229,104 +230,14 @@ export class OniItem
 
     let infoOniItem = new OniItem(OniItem.infoId);
     infoOniItem.name = OniItem.infoId;
+    infoOniItem.iconUrl = 'assets/images/ui/manual/info-indicator-icon.png';
     infoOniItem.zIndex = ZIndex.BuildingUse;
     infoOniItem.spriteGroup = new SpriteModifierGroup();
     infoOniItem.spriteGroup.spriteModifiers.push(SpriteModifier.getSpriteModifer('info_back'));
     for (let i = 0; i < 12; i++) infoOniItem.spriteGroup.spriteModifiers.push(SpriteModifier.getSpriteModifer('info_front_' + i));
     infoOniItem.cleanUp();
     OniItem.oniItemsMap.set(infoOniItem.id, infoOniItem);
-    /*
-    {
-      "name": "info_back",
-      "type": 0,
-      "spriteInfoName": "info_back",
-      "translation": {
-        "x": 0,
-        "y": 0
-      },
-      "scale": {
-        "x": 1,
-        "y": 1
-      },
-      "rotation": 0,
-      "multColour": {
-        "r": 1,
-        "g": 1,
-        "b": 1,
-        "a": 1
-      },
-      "tags": [
-        27
-      ]
-    },
-    {
-      "name": "info_front_i",
-      "type": 0,
-      "spriteInfoName": "info_front_i",
-      "translation": {
-        "x": 0,
-        "y": 0
-      },
-      "scale": {
-        "x": 1,
-        "y": 1
-      },
-      "rotation": 0,
-      "multColour": {
-        "r": 1,
-        "g": 1,
-        "b": 1,
-        "a": 1
-      },
-      "tags": [
-        28
-      ]
-    },
-    {
-      "name": "info_back",
-      "textureName": "info_back",
-      "isIcon": false,
-      "isInputOutput": false,
-      "uvMin": {
-        "x": 0,
-        "y": 0
-      },
-      "uvSize": {
-        "x": 128,
-        "y": 128
-      },
-      "realSize": {
-        "x": 100,
-        "y": 100
-      },
-      "pivot": {
-        "x": 1,
-        "y": 0
-      }
-    },
-    {
-      "name": "info_front_i",
-      "textureName": "info_front_i",
-      "isIcon": false,
-      "isInputOutput": false,
-      "uvMin": {
-        "x": 0,
-        "y": 0
-      },
-      "uvSize": {
-        "x": 128,
-        "y": 128
-      },
-      "realSize": {
-        "x": 100,
-        "y": 100
-      },
-      "pivot": {
-        "x": 1,
-        "y": 0
-      }
-    },
-    */
+
   }
 
   public isOverlayPrimary(overlay: Overlay): boolean {

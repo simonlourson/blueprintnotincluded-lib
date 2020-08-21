@@ -177,6 +177,15 @@ export class CameraService
 
     setHardZoom(zoomLevel: number) {
       this.targetZoom = this.currentZoom = zoomLevel;
+
+      let zoomLevelDif = -1;
+      for (let zoomLevelIndex = 0; zoomLevelIndex < this.zoomLevels.length; zoomLevelIndex++) {
+        let dif = Math.abs(zoomLevel - this.zoomLevels[zoomLevelIndex]);
+        if (zoomLevelDif == -1 || dif < zoomLevelDif) {
+          this.currentZoomIndex = zoomLevelIndex;
+          zoomLevelDif = dif;
+        }
+      }
     }
 
     changeZoom(zoomDelta: number, zoomCenter: Vector2)
