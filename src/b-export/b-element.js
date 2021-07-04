@@ -45,6 +45,10 @@ class BuildableElement {
             newElement.importFrom(original);
             BuildableElement.elements.push(newElement);
         }
+        let none = new BuildableElement();
+        none.id = 'None';
+        none.name = 'None';
+        BuildableElement.elements.push(none);
     }
     static getElement(id) {
         for (let element of BuildableElement.elements)

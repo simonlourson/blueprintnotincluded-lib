@@ -12,6 +12,7 @@ import { StringHelpers } from "./string-helpers";
 import { SpriteModifier } from "./drawing/sprite-modifier";
 import { BuildMenuItem, BuildMenuCategory } from "./b-export/b-build-order";
 import { BuildLocationRule } from "./enums/build-location-rule";
+import { ConnectionType } from "./enums/connection-type";
 
 export class OniItem
 {
@@ -48,6 +49,15 @@ export class OniItem
 
   tileableLeftRight: boolean = false;
   tileableTopBottom: boolean = false;
+
+  get isPartOfCircuit(): boolean { 
+    for (let utility of this.utilityConnections)
+      if (utility.type == ConnectionType.POWER_INPUT || utility.type == ConnectionType.POWER_OUTPUT) return true;
+    
+    if (this.zIndex == ZIndex.Wires) return true;
+    
+    return false;
+  }
   
   private permittedRotations_: PermittedRotations = PermittedRotations.Unrotatable;
   get permittedRotations() { return this.permittedRotations_; }
@@ -269,6 +279,6 @@ export class OniItem
     }
 */
     if (returnValue != undefined) return returnValue;
-    else throw new Error('OniItem.getOniItem : OniItem id not found');
+    else throw new Error('OniItem.getOniItem : OniItem id not found : ' + id);
   }
 }

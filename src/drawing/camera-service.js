@@ -9,6 +9,7 @@ class CameraService {
         this.display_ = -1;
         this.visualization_ = -1;
         this.lastZoomCenter = new vector2_1.Vector2();
+        this.linearReset = 0;
         // Public because this is used by the export images dialog
         this.zoomLevels = [16, 18, 20, 23, 27, 32, 38, 45, 54, 64, 76, 90, 108, 128];
         if (CameraService.cameraService_ == null)
@@ -93,6 +94,7 @@ class CameraService {
     updateAnimations(deltaTime) {
         this.updateSinWave(deltaTime);
         this.updateSpinner(deltaTime);
+        this.updateLinearReset(deltaTime);
         this.observersToAnimationChange.map((observer) => { observer.animationChanged(); });
     }
     updateSinWave(deltaTime) {
@@ -105,6 +107,11 @@ class CameraService {
         this.spinner += deltaTime / 6;
         if (this.spinner > 360)
             this.spinner -= 360;
+    }
+    updateLinearReset(deltaTime) {
+        this.linearReset += deltaTime / 12 / 100;
+        while (this.linearReset > 1)
+            this.linearReset -= 1;
     }
     resetZoom(canvasSize) {
         this.currentZoomIndex = 7;

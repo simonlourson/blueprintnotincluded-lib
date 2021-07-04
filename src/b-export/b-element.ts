@@ -60,6 +60,11 @@ export class BuildableElement {
 
       BuildableElement.elements.push(newElement);
     }
+
+    let none = new BuildableElement();
+    none.id = 'None';
+    none.name = 'None';
+    BuildableElement.elements.push(none);
   }
 
   public static getElement(id: string): BuildableElement {

@@ -8,6 +8,7 @@ export interface MdbBuilding {
     elements?: string[];
     settings?: UiSaveSettings[];
     connections?: number;
+    pipeElement?: string;
     orientation?: number;
     mass?: number;
     infoString?: string;

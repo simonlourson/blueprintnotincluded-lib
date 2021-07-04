@@ -90,12 +90,18 @@ export class Blueprint
 
     for (let building of bniBlueprint.buildings)
     {
-      let newTemplateItem = BlueprintHelpers.createInstance(building.buildingdef);
-      if (newTemplateItem == null) continue;
-
-      newTemplateItem.importBniBuilding(building);
+      try {
+        let newTemplateItem = BlueprintHelpers.createInstance(building.buildingdef);
+        if (newTemplateItem == null) continue;
+  
+        newTemplateItem.importBniBuilding(building);
+        
+        this.addBlueprintItem(newTemplateItem);
+      }
+      catch (error) {
+        console.log(error);
+      }
       
-      this.addBlueprintItem(newTemplateItem);
     }
   }
 

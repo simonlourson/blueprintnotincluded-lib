@@ -39,6 +39,7 @@ export declare class OniItem {
     spriteGroup: SpriteModifierGroup;
     tileableLeftRight: boolean;
     tileableTopBottom: boolean;
+    readonly isPartOfCircuit: boolean;
     private permittedRotations_;
     permittedRotations: PermittedRotations;
     buildLocationRule: BuildLocationRule;

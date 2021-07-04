@@ -136,6 +136,7 @@ export class CameraService
   updateAnimations(deltaTime: number) {
     this.updateSinWave(deltaTime);
     this.updateSpinner(deltaTime);
+    this.updateLinearReset(deltaTime);
 
     this.observersToAnimationChange.map((observer) => { observer.animationChanged(); })
   }
@@ -150,6 +151,12 @@ export class CameraService
   updateSpinner(deltaTime: number) {
     this.spinner += deltaTime / 6;
     if (this.spinner > 360) this.spinner -= 360;
+  }
+
+  linearReset: number = 0;
+  updateLinearReset(deltaTime: number) {
+    this.linearReset += deltaTime / 12 / 100;
+    while (this.linearReset > 1) this.linearReset -= 1;
   }
 
   resetZoom(canvasSize: Vector2)

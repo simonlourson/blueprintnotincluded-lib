@@ -13,6 +13,7 @@ const string_helpers_1 = require("./string-helpers");
 const sprite_modifier_1 = require("./drawing/sprite-modifier");
 const b_build_order_1 = require("./b-export/b-build-order");
 const build_location_rule_1 = require("./enums/build-location-rule");
+const connection_type_1 = require("./enums/connection-type");
 class OniItem {
     constructor(id) {
         this.name = '';
@@ -49,6 +50,14 @@ class OniItem {
         this.cleanUp();
     }
     get isInfo() { return this.id == OniItem.infoId; }
+    get isPartOfCircuit() {
+        for (let utility of this.utilityConnections)
+            if (utility.type == connection_type_1.ConnectionType.POWER_INPUT || utility.type == connection_type_1.ConnectionType.POWER_OUTPUT)
+                return true;
+        if (this.zIndex == z_index_1.ZIndex.Wires)
+            return true;
+        return false;
+    }
     get permittedRotations() { return this.permittedRotations_; }
     set permittedRotations(value) {
         this.permittedRotations_ = value;
@@ -240,7 +249,7 @@ class OniItem {
         if (returnValue != undefined)
             return returnValue;
         else
-            throw new Error('OniItem.getOniItem : OniItem id not found');
+            throw new Error('OniItem.getOniItem : OniItem id not found : ' + id);
     }
 }
 OniItem.elementId = 'Element';

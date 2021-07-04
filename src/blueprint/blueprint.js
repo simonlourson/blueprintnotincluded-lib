@@ -63,11 +63,16 @@ class Blueprint {
     importFromBni(bniBlueprint) {
         this.blueprintItems = [];
         for (let building of bniBlueprint.buildings) {
-            let newTemplateItem = blueprint_helpers_1.BlueprintHelpers.createInstance(building.buildingdef);
-            if (newTemplateItem == null)
-                continue;
-            newTemplateItem.importBniBuilding(building);
-            this.addBlueprintItem(newTemplateItem);
+            try {
+                let newTemplateItem = blueprint_helpers_1.BlueprintHelpers.createInstance(building.buildingdef);
+                if (newTemplateItem == null)
+                    continue;
+                newTemplateItem.importBniBuilding(building);
+                this.addBlueprintItem(newTemplateItem);
+            }
+            catch (error) {
+                console.log(error);
+            }
         }
     }
     importFromMdb(mdbBlueprint) {

@@ -9,4 +9,6 @@ export interface PixiUtil {
   getNewBaseRenderTexture(options: any): any;
   getNewRenderTexture(brt: any): any;
   getNewPixiApp(options: any): any;
+  getUtilityGraphicsBack(): any;
+  getUtilityGraphicsFront(): any;
 }

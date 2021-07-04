@@ -36,6 +36,8 @@ export declare class CameraService {
     updateAnimations(deltaTime: number): void;
     updateSinWave(deltaTime: number): void;
     updateSpinner(deltaTime: number): void;
+    linearReset: number;
+    updateLinearReset(deltaTime: number): void;
     resetZoom(canvasSize: Vector2): void;
     zoomLevels: number[];
     private currentZoomIndex;
