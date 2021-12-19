@@ -5,13 +5,15 @@ export class BuildMenuCategory
 {
   category: number = 0;
   categoryName: string = '';
+  categoryShowName: string = '';
   categoryIcon: string = '';
   categoryIconUrl: string = '';
 
   public importFrom(original: BuildMenuCategory)
   {
     this.category = original.category;
-    this.categoryName = original.categoryName
+    this.categoryName = original.categoryName;
+    this.categoryShowName = original.categoryShowName
     this.categoryIcon = original.categoryIcon;
     this.categoryIconUrl = StringHelpers.createUrl(this.categoryIcon, true);
   }
@@ -26,6 +28,7 @@ export class BuildMenuCategory
     BuildMenuCategory.allCategories = new BuildMenuCategory();
     BuildMenuCategory.allCategories.category = -1;
     BuildMenuCategory.allCategories.categoryName = 'All';
+    BuildMenuCategory.allCategories.categoryShowName = $localize`:All building categories:All`;
     BuildMenuCategory.allCategories.categoryIcon = 'icon_category_base';
     BuildMenuCategory.allCategories.categoryIconUrl = StringHelpers.createUrl(BuildMenuCategory.allCategories.categoryIcon, true);
   }

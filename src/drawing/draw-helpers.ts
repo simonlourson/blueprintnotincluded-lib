@@ -269,15 +269,15 @@ export class DrawHelpers
   ];
 
   public static temperatureThresholds: TemperatureThreshold[] = [
-    {temperature: 0,        color: 0x80fef0, label:'Absolute Zero'},
-    {temperature: 273.15,   color: 0x2bcbff, label:'Cold'},
-    {temperature: 283,      color: 0x1fa1ff, label:'Chilled'},
-    {temperature: 293,      color: 0x3bfe4a, label:'Temperate'},
-    {temperature: 303,      color: 0xefff00, label:'Warm'},
-    {temperature: 310,      color: 0xffa924, label:'Hot'},
-    {temperature: 373,      color: 0xfb5350, label:'Scorching'},
-    {temperature: 2073,     color: 0xfb0200, label:'Molten'},
-    {temperature: 10272.15, color: 0xfb0200, label:'Molten'},
+    {temperature: 0,        color: 0x80fef0, label:$localize`:temperature scale:Absolute Zero`},
+    {temperature: 273.15,   color: 0x2bcbff, label:$localize`:temperature scale:Cold`},
+    {temperature: 283,      color: 0x1fa1ff, label:$localize`:temperature scale:Chilled`},
+    {temperature: 293,      color: 0x3bfe4a, label:$localize`:temperature scale:Temperate`},
+    {temperature: 303,      color: 0xefff00, label:$localize`:temperature scale:Warm`},
+    {temperature: 310,      color: 0xffa924, label:$localize`:temperature scale:Hot`},
+    {temperature: 373,      color: 0xfb5350, label:$localize`:temperature scale:Scorching`},
+    {temperature: 2073,     color: 0xfb0200, label:$localize`:temperature scale:Molten`},
+    {temperature: 10272.15, color: 0xfb0200, label:$localize`:temperature scale:Molten`},
   ];
 
   public static temperatureToColor(temperature: number) {
