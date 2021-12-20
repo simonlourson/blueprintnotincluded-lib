@@ -248,15 +248,15 @@ DrawHelpers.scaleSteps = [
     { xmin: 90, xmax: 100, ymin: 493.15, ymax: 10272.15 }
 ];
 DrawHelpers.temperatureThresholds = [
-    { temperature: 0, color: 0x80fef0, label: 'Absolute Zero' },
-    { temperature: 273.15, color: 0x2bcbff, label: 'Cold' },
-    { temperature: 283, color: 0x1fa1ff, label: 'Chilled' },
-    { temperature: 293, color: 0x3bfe4a, label: 'Temperate' },
-    { temperature: 303, color: 0xefff00, label: 'Warm' },
-    { temperature: 310, color: 0xffa924, label: 'Hot' },
-    { temperature: 373, color: 0xfb5350, label: 'Scorching' },
-    { temperature: 2073, color: 0xfb0200, label: 'Molten' },
-    { temperature: 10272.15, color: 0xfb0200, label: 'Molten' },
+    { temperature: 0, color: 0x80fef0, label: 'Absolute Zero', code: 'EXTREMECOLD' },
+    { temperature: 273.15, color: 0x2bcbff, label: 'Cold', code: 'VERYCOLD' },
+    { temperature: 283, color: 0x1fa1ff, label: 'Chilled', code: 'COLD' },
+    { temperature: 293, color: 0x3bfe4a, label: 'Temperate', code: 'TEMPERATE' },
+    { temperature: 303, color: 0xefff00, label: 'Warm', code: 'HOT' },
+    { temperature: 310, color: 0xffa924, label: 'Hot', code: 'VERYHOT' },
+    { temperature: 373, color: 0xfb5350, label: 'Scorching', code: 'EXTREMEHOT' },
+    { temperature: 2073, color: 0xfb0200, label: 'Molten', code: 'MAXHOT' },
+    { temperature: 10272.15, color: 0xfb0200, label: 'Molten', code: 'MAXHOT' },
 ];
 DrawHelpers.connectionString = [
     'None_place',

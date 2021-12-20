@@ -37,5 +37,7 @@ export interface TemperatureThreshold {
     temperature: number;
     color: number;
     label: string;
+    /** used as STRINGS.UI.OVERLAYS.${code}.NAME */
+    code: string;
 }
 //# sourceMappingURL=draw-helpers.d.ts.map
