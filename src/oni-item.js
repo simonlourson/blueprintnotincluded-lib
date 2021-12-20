@@ -203,7 +203,7 @@ class OniItem {
             OniItem.oniItemsMap.set(oniItem.id, oniItem);
         }
         let elementOniItem = new OniItem(OniItem.elementId);
-        elementOniItem.name = "Element";
+        elementOniItem.name = OniItem.elementId;
         elementOniItem.isElement = true;
         elementOniItem.zIndex = z_index_1.ZIndex.GasFront;
         elementOniItem.spriteGroup = new sprite_modifier_group_1.SpriteModifierGroup();
@@ -214,7 +214,7 @@ class OniItem {
         elementOniItem.cleanUp();
         OniItem.oniItemsMap.set(elementOniItem.id, elementOniItem);
         let infoOniItem = new OniItem(OniItem.infoId);
-        infoOniItem.name = "Info";
+        infoOniItem.name = OniItem.infoId;
         infoOniItem.iconUrl = 'assets/images/ui/manual/info-indicator-icon.png';
         infoOniItem.zIndex = z_index_1.ZIndex.BuildingUse;
         infoOniItem.spriteGroup = new sprite_modifier_group_1.SpriteModifierGroup();

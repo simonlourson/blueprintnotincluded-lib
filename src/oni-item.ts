@@ -227,7 +227,7 @@ export class OniItem
     }
 
     let elementOniItem = new OniItem(OniItem.elementId);
-    elementOniItem.name = "Element";
+    elementOniItem.name = OniItem.elementId;
     elementOniItem.isElement = true;
     elementOniItem.zIndex = ZIndex.GasFront;
     elementOniItem.spriteGroup = new SpriteModifierGroup();
@@ -239,7 +239,7 @@ export class OniItem
     OniItem.oniItemsMap.set(elementOniItem.id, elementOniItem);
 
     let infoOniItem = new OniItem(OniItem.infoId);
-    infoOniItem.name = "Info";
+    infoOniItem.name = OniItem.infoId;
     infoOniItem.iconUrl = 'assets/images/ui/manual/info-indicator-icon.png';
     infoOniItem.zIndex = ZIndex.BuildingUse;
     infoOniItem.spriteGroup = new SpriteModifierGroup();
