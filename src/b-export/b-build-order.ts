@@ -5,13 +5,15 @@ export class BuildMenuCategory
 {
   category: number = 0;
   categoryName: string = '';
+  categoryShowName: string = '';
   categoryIcon: string = '';
   categoryIconUrl: string = '';
 
   public importFrom(original: BuildMenuCategory)
   {
     this.category = original.category;
-    this.categoryName = original.categoryName
+    this.categoryName = original.categoryName;
+    this.categoryShowName = original.categoryShowName
     this.categoryIcon = original.categoryIcon;
     this.categoryIconUrl = StringHelpers.createUrl(this.categoryIcon, true);
   }

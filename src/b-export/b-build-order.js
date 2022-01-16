@@ -6,12 +6,14 @@ class BuildMenuCategory {
     constructor() {
         this.category = 0;
         this.categoryName = '';
+        this.categoryShowName = '';
         this.categoryIcon = '';
         this.categoryIconUrl = '';
     }
     importFrom(original) {
         this.category = original.category;
         this.categoryName = original.categoryName;
+        this.categoryShowName = original.categoryShowName;
         this.categoryIcon = original.categoryIcon;
         this.categoryIconUrl = string_helpers_1.StringHelpers.createUrl(this.categoryIcon, true);
     }

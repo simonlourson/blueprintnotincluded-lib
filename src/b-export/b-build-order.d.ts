@@ -1,6 +1,7 @@
 export declare class BuildMenuCategory {
     category: number;
     categoryName: string;
+    categoryShowName: string;
     categoryIcon: string;
     categoryIconUrl: string;
     importFrom(original: BuildMenuCategory): void;
