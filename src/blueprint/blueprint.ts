@@ -146,6 +146,7 @@ export class Blueprint
       for (let elementIndex = 0; elementIndex < selectedElementCount; elementIndex++)
       {
         let tag = reader.readInt();
+        bniBuilding.selected_elements.push(tag);
       }
 
       let orientation = reader.readInt();

@@ -51,6 +51,13 @@ export class BlueprintItem
     this.reloadCamera = true;
   }
 
+  public setElementByTagNumber(tag: number, index: number) {
+    if (this.buildableElements == null) this.buildableElements = [];
+    this.buildableElements[index] = BuildableElement.getElementByTagNumber(tag);
+
+    this.reloadCamera = true;
+  }
+
   // Each template item should remember where it was added, to make removal easier
   public tileIndexes: number[] = [];
 
@@ -186,6 +193,8 @@ export class BlueprintItem
         building.offset.y == null ? 0 : building.offset.y
       );
     else this.position = Vector2.zero();
+
+    this.setSelectedElementsTag(building.selected_elements);
 
     this.changeOrientation(building.orientation);
 
@@ -356,6 +365,14 @@ export class BlueprintItem
     }
 
     return returnValue;
+  }
+
+  public setSelectedElementsTag(selected_elements: number[]) {
+    let index = 0;
+  
+    for (let i = 0; i < selected_elements.length; i++) {
+      this.setElementByTagNumber(selected_elements[i], i);
+    }
   }
 
   public getSelectedElementsTag(): number[] {
