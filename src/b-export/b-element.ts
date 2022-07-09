@@ -75,6 +75,14 @@ export class BuildableElement {
     throw new Error('BuildableElement.getElement : Element not found');
   }
 
+  public static getElementByTagNumber(tag: number): BuildableElement {
+    for (let element of BuildableElement.elements)
+      if (element.tag == tag)
+        return element;
+
+    throw new Error('BuildableElement.getElementByTagNumber : Element not found');
+  }
+
   // Get a list of elements that have the parameter tag
   public static getElementsFromTag(tag: string): BuildableElement[] {
     
